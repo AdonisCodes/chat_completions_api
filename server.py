@@ -39,4 +39,4 @@ def proxy(path):
     )
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)  # Change port as needed
+    app.run(host='0.0.0.0', port=2228)  # Change port as needed
