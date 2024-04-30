@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.example.socat</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/socat</string>
+        <string>TCP-LISTEN:11434,fork</string>
+        <string>TCP:localhost:8080</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>
+

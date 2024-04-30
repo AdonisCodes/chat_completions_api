@@ -5,4 +5,3 @@
 3. Ensure the model runs as a systemd / login item for mac & linux
 
 ## Adding the port to your :
-# chat_completions_api
