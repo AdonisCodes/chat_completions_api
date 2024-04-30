@@ -8,7 +8,7 @@
     <array>
         <string>/usr/local/bin/socat</string>
         <string>TCP-LISTEN:11434,fork</string>
-        <string>TCP:localhost:8080</string>
+        <string>TCP:localhost:2228</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
