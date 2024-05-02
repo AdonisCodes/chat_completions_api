@@ -27,6 +27,6 @@ If you type this: `./auto-setup.sh` or `./auto-setup.sh --apps=all` it will setu
 ### Current Locally Hosted Applicications
 - Ollama `ollama`
 - Ollama Web-UI (Using Docker) `ollama-web`
-- Automatic1111/stable-diffusion-webui (we are mostly interested in the --api flag & the --listen --share flags) `stable-diffusion`
+- ComfyUI Selfhosted (They unload the model from memory after use, which is better for our usecase!)
 
 
