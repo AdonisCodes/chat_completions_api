@@ -6,7 +6,10 @@
         <string>com.simonferns.comfy</string>
         <key>ProgramArguments</key>
         <array>
-          <string>/Users/simonferns/ComfyUI/comfyui-customstart.sh</string>
+          <string>/Users/<USERNAME>/ComfyUI/venv/bin/python</string>
+          <string>/Users/<USERNAME>/ComfyUI/main.py</string>
+          <string>--lowvram</string>
+          <string>--listen</string>
         </array>
         <key>RunAtLoad</key>
         <true/>
