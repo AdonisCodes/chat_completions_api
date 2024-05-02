@@ -3,18 +3,17 @@
 <plist version="1.0">
     <dict>
         <key>Label</key>
-        <string>com.simonferns.comfy.comfyui_api_startup_expose</string>
+        <string>com.simonferns.comfy</string>
         <key>ProgramArguments</key>
         <array>
-            <string>~/ComfyUI/venv/bin/python</string>
-            <string>~/ComfyUI/main.py</string>
-            <string>--lowvram</string>
+          <string>/Users/simonferns/ComfyUI/comfyui-customstart.sh</string>
         </array>
         <key>RunAtLoad</key>
         <true/>
         <key>StandardErrorPath</key>
-        <string>/tmp/ollama_pulic.err</string>
+        <string>/tmp/comfyui_public.err</string>
         <key>StandardOutPath</key>
-        <string>/tmp/ollama_public.out</string>
+        <string>/tmp/comfyui_public.out</string>
     </dict>
 </plist>
+
